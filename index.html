@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Restaurant Le Berbère - Restaurant oriental à Saint-André, La Réunion. Découvrez notre cuisine nord-africaine authentique et réservez votre table.">
+    <meta name="theme-color" content="#1B7A7F">
+    <title>Restaurant Le Berbère - Restaurant oriental à Saint-André</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600;700&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="#main" class="skip-link">Sauter au contenu principal</a>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar-container">
+            <div class="navbar-brand">
+                <h1 class="logo">Restaurant Le Berbère</h1>
+            </div>
+
+            <button class="burger-menu" id="burgerMenu" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#menu">La Carte</a></li>
+                <li><a href="#gallery">Galerie</a></li>
+                <li><a href="#hours">Horaires</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <a href="#contact" class="nav-cta" aria-label="Réserver une table">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <path d="m21 21-4.35-4.35"></path>
+                </svg>
+                <span>Réserver</span>
+            </a>
+        </div>
+        <div class="navbar-divider"></div>
+    </nav>
+
+    <main id="main">
+        <!-- SPLIT HERO SECTION -->
+        <section class="hero-split" id="hero">
+            <div class="hero-split-content">
+                <div class="hero-split-text">
+                    <span class="hero-badge">Restaurant oriental à Saint-André</span>
+                    <h1 class="hero-title">Saveurs du Maghreb à La Réunion</h1>
+                    <p class="hero-subtitle">Découvrez notre cuisine nord-africaine authentique. Couscous, tajines, grillades et spécialités berbères préparées avec passion dans une atmosphère cosy aux murs bleu turquoise.</p>
+
+                    <div class="hero-ctas">
+                        <a href="#contact" class="btn btn-primary">Réserver maintenant</a>
+                        <a href="tel:+262693772055" class="btn btn-secondary">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                            Appeler
+                        </a>
+                    </div>
+
+                    <div class="hero-trust">
+                        <div class="trust-badge">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                            </svg>
+                            <span><strong>4.7</strong>/5 — <strong>70</strong> avis</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-split-image">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAweoF1GqBCmJRmBzBEKnGucF_0za_HfQkUWf1sDruqiCn7WyIZpYzfFDJoDTLFum-vxTg87sJ-cQIY5bUsVj3KujENck5MaPsxjlRUhwGjn3W3od_taBtqmOaSnNsRyji5Ij1RGjY=w1600-h900-k-no" alt="Restaurant Le Berbère - Cuisine orientale à Saint-André" loading="eager">
+                </div>
+            </div>
+        </section>
+
+        <!-- FLOATING STATS -->
+        <section class="floating-stats" aria-label="Statistiques du restaurant">
+            <div class="stats-cards-container">
+                <div class="stat-card">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                    </svg>
+                    <div>
+                        <div class="stat-value">4.7</div>
+                        <div class="stat-label">Évaluation</div>
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                    <div>
+                        <div class="stat-value">70</div>
+                        <div class="stat-label">Avis clients</div>
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"></path>
+                    </svg>
+                    <div>
+                        <div class="stat-value">100%</div>
+                        <div class="stat-label">Qualité</div>
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                    <div>
+                        <div class="stat-value">Saint-André</div>
+                        <div class="stat-label">Localisation</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- À PROPOS SECTION (STAGGERED) -->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about-staggered">
+                    <div class="about-image-wrapper">
+                        <img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAweot9SQ34W7UuxQszZ5fuSqCLG7yqSkwCxwozVo1zkPJq25iX9x_8pOitrvYsLOCpwrJmtzs6P_G4XouvKeVZWmiqMsPj-7zAw-BG7TaMmpBM_n-a8XZE1sjX1FaC8HV0KSD-b5Gpg=w1600-h900-k-no" alt="Intérieur du Restaurant Le Berbère" loading="lazy">
+                    </div>
+
+                    <div class="about-content">
+                        <span class="eyebrow">Notre histoire</span>
+                        <h2 class="section-title">Bienvenue</h2>
+
+                        <div class="quote-decorative">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="var(--primary-light)" opacity="0.5">
+                                <path d="M3 21c3 0 7-1 7-8V5c0-1.25-4.716-5-7-5C3.31 0 0 4.216 0 7v13c0 3.784 2.236 7 7 7z" fill="currentColor"/>
+                                <path d="M15 21c3 0 7-1 7-8V5c0-1.25-4.716-5-7-5C15.31 0 12 4.216 12 7v13c0 3.784 2.236 7 7 7z" fill="currentColor"/>
+                            </svg>
+                        </div>
+
+                        <blockquote class="pull-quote">
+                            <p>Une cuisine berbère authentique qui raconte les saveurs du Maghreb, revisitée avec passion dans un cadre chaud et accueillant.</p>
+                        </blockquote>
+
+                        <p>Bienvenue au Restaurant Le Berbère, votre destination pour découvrir les délices de la cuisine nord-africaine à Saint-André. Nous célébrons les traditions culinaires du Maghreb avec une approche authentique, en mettant l'accent sur des saveurs incontournables et des ingrédients de qualité soigneusement sélectionnés.</p>
+
+                        <p>Notre équipe passionnée travaille chaque jour pour offrir une expérience culinaire mémorable. Notre restaurant aux murs bleu turquoise crée une atmosphère cosy et conviviale. Chaque plat est une invitation à découvrir l'âme de la cuisine berbère, qu'il s'agisse de nos couscous savoureux, de nos tajines tendres ou de nos grillades généreuses.</p>
+
+                        <p class="signature">— Restaurant Le Berbère</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- HORIZONTAL MENU CARDS (LA CARTE) -->
+        <section class="menu-horizontal" id="menu">
+            <div class="container">
+                <span class="eyebrow">À la carte</span>
+                <h2 class="section-title">Nos spécialités</h2>
+
+                <div class="menu-scroll-container">
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAweqOXhuYS9ETVm_4RhLhk2il0q4MblKFJ5OeHY6lYDetxACywhacSZz8nI-IpKn2DcrzTZpHg1M4iERBPbquXppJF9pUm4PRRYZjbS3YvPbnVNYRGeGr8rsfB2yhemVjR9AHTvjTs22sDQro=w800-h600-k-no" alt="Couscous Traditionnel" loading="lazy">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Couscous Traditionnel</h3>
+                            <p>Notre signature : semoule fine servie avec légumes frais du marché, pois chiches et votre choix de viande (agneau, poulet, merguez). Une recette classique du Maghreb.</p>
+                            <div class="menu-line"></div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAweqPOnp98R_pzvYDJq8luWoZvmef-E4A86LAwxXJknYvBoPih_9kVf5cmqfdfeo67qkK2RzWVMOaxsakWs9tSGTVEiyrJVL7frVTJJiJTwEHqCm3EirvtVR37BwNPGgFsRLnIdAt=w800-h600-k-no" alt="Tajines Savoureux" loading="lazy">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Tajines Savoureux</h3>
+                            <p>Viandes tendres cuisinées lentement avec fruits secs, épices exotiques et légumes. Nos tajines sont préparés à la manière traditionnelle pour une saveur incomparable.</p>
+                            <div class="menu-line"></div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAwepe2iIL04bUrg0FNeYl2DKZZPaYOtXHaQ6Pyan_V1X1yw6HUZ1sEsWwczovhlFZv4t-yw0Wlopiyfc3rjoEA_GthjXf6E3gABu5ADdbyXoAWUuWUfa0X6UPVE70Hn-YXVPJFgo8=w800-h600-k-no" alt="Grillades Nord-Africaines" loading="lazy">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Grillades Nord-Africaines</h3>
+                            <p>Merguez, brochettes d'agneau et poisson grillé, marinés dans nos épices maison. Servies avec sauce harissa et pain frais pour une expérience authentique.</p>
+                            <div class="menu-line"></div>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAwequmPi19TyRTdO1dbWKnKNZMqi3pr2ftC642l2XxlbYcz72R3K8sjeQBVE2EElFxtA23nyIYiIS7mXsB0UDBiI2TY7LYy14KCM3moMDsPtsld-ftaciLYedCT5P68W8otPDkAD_VQ_Bi5YL=w800-h600-k-no" alt="Pâtisseries Gourmandes" loading="lazy">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Pâtisseries Gourmandes</h3>
+                            <p>Baklava croustillante au miel, cornes de gazelle aux amandes, et autres délices sucrés. Parfait avec notre café traditionnel ou notre menthe glacée.</p>
+                            <div class="menu-line"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-note">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="12" y1="16" x2="12" y2="12"></line>
+                        <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                    </svg>
+                    <span>Carte susceptible d'évoluer selon les saisons et les arrivages du jour</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- MOSAIC GALLERY -->
+        <section class="gallery" id="gallery">
+            <div class="container">
+                <span class="eyebrow">En images</span>
+                <h2 class="section-title">Notre univers</h2>
+
+                <div class="gallery-mosaic">
+                    <div class="gallery-item tall">
+                        <img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAweoVySkX_ILMUWQTEqlcCWQs8No49TsOuSOoAw6gDy2QGFxeaNlIs0835bhsLTwHAQdtA4yXiHhG_qHkHu6SmBvYdH3YKSEmGgFOyXrVONqCeyXihGWAvcPSeCvkaXXj9sez43kw=w1600-h900-k-no" alt="Spécialités berbères" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="gallery-label">Spécialités berbères</span>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item tall">
+                        <img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAwerqtYtxPMQBEyFidSXCHcn0zoGAk2lIEs3wVzP6r7VlaAGqt9d9rWcDz1_DI90MqWdzt5dgdofPNzkaHQ_GzAmWEKk6UulZK8sCl2eUmIP7mPUZlFiptw8mxg7-MdNWnRvJQYY2WFsK2CI=w800-h600-k-no" alt="Notre cuisine" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="gallery-label">Notre cuisine</span>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAwerwP8Q_dYPgaps8v0htWUFQ9EnVjLCqCXbtq-9-MNdt8-Pinc9NiZ0yurXMoFBtENZ_bYZv3WPJxldD1rNuViqScOp2GSnJILfrE5tqFP7t1yL6Rg6_hrHI0ATR8kfqUciq-kjswg=w800-h600-k-no" alt="Ambiance du restaurant" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="gallery-label">Notre ambiance</span>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAwepjSevivtF-vVpuWK-fhZlKIwH8dnPfF2vv_0AvnbjUMxO6T67t9w1C0H0lGSs9f5ZdSxFrV5h2_so0BzceU_g8ESv3WRLIhlaL_oA915A-wnIZqF7-oasrEB0F3abxOFdTQMCdpw=w800-h600-k-no" alt="Nos plats généreux" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="gallery-label">Nos plats</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA SECTION (EDITORIAL) -->
+        <section class="cta-editorial">
+            <div class="container">
+                <div class="cta-content">
+                    <blockquote class="cta-quote">
+                        <p>Une table au cœur de La Réunion. Saveurs authentiques du Maghreb, atmosphère cosy aux murs bleu turquoise, accueil chaleureux.</p>
+                    </blockquote>
+                    <a href="#contact" class="btn btn-primary btn-large">Réserver votre table</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- HORAIRES SECTION -->
+        <section class="hours" id="hours">
+            <div class="container">
+                <span class="eyebrow">Ouverture</span>
+                <h2 class="section-title">Nos horaires</h2>
+
+                <div class="hours-grid">
+                    <div class="hours-card">
+                        <table class="hours-table">
+                            <tbody>
+                                <tr class="hours-row" data-day="1">
+                                    <td class="day-name">Lundi</td>
+                                    <td class="day-hours">12:00–14:30, 18:00–22:00</td>
+                                </tr>
+                                <tr class="hours-row" data-day="2">
+                                    <td class="day-name">Mardi</td>
+                                    <td class="day-hours">12:00–14:30, 18:00–22:00</td>
+                                </tr>
+                                <tr class="hours-row" data-day="3">
+                                    <td class="day-name">Mercredi</td>
+                                    <td class="day-hours">12:00–14:30, 18:00–22:00</td>
+                                </tr>
+                                <tr class="hours-row" data-day="4">
+                                    <td class="day-name">Jeudi</td>
+                                    <td class="day-hours">12:00–14:30, 18:00–22:00</td>
+                                </tr>
+                                <tr class="hours-row" data-day="5">
+                                    <td class="day-name">Vendredi</td>
+                                    <td class="day-hours">12:00–14:30, 18:00–23:00</td>
+                                </tr>
+                                <tr class="hours-row" data-day="6">
+                                    <td class="day-name">Samedi</td>
+                                    <td class="day-hours">12:00–14:30, 18:00–23:00</td>
+                                </tr>
+                                <tr class="hours-row" data-day="0">
+                                    <td class="day-name">Dimanche</td>
+                                    <td class="day-hours">12:00–14:30</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <div class="hours-note">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="12" y1="16" x2="12" y2="12"></line>
+                                <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                            </svg>
+                            <span>Horaires susceptibles d'évoluer. Appelez pour confirmer.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- LOCALISATION AVEC CARTE -->
+        <section class="location">
+            <div class="maps-full">
+                <iframe src="https://www.google.com/maps?q=Restaurant+Le+Berbère+150+Rue+de+la+Gare+Saint-André+97440&output=embed" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="location-card-floating">
+                <h3>Nous localiser</h3>
+                <div class="address-block">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                    <div>
+                        <p>150 Rue de la Gare</p>
+                        <p>97440 Saint-André</p>
+                    </div>
+                </div>
+                <a href="tel:+262693772055" class="address-phone">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    </svg>
+                    +262 693 77 20 55
+                </a>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION (SPLIT PANEL) -->
+        <section class="contact" id="contact">
+            <div class="contact-split">
+                <div class="contact-info-panel">
+                    <h2>Contactez-nous</h2>
+                    <div class="info-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                        <div>
+                            <p class="info-label">Téléphone</p>
+                            <a href="tel:+262693772055">+262 693 77 20 55</a>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                        <div>
+                            <p class="info-label">Adresse</p>
+                            <p>150 Rue de la Gare<br>97440 Saint-André</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                        </svg>
+                        <div>
+                            <p class="info-label">Nous contacter</p>
+                            <p>Pour plus d'informations, appelez-nous directement</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-panel">
+                    <form class="contact-form" action="https://formspree.io/f/xpznqwby" method="POST">
+                        <h3>Réserver votre table</h3>
+
+                        <div class="form-group">
+                            <label for="name">Nom</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Téléphone</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="guests">Nombre de convives</label>
+                            <select id="guests" name="guests" required>
+                                <option value="">Sélectionner...</option>
+                                <option value="1-2">1-2 personnes</option>
+                                <option value="3-4">3-4 personnes</option>
+                                <option value="5-6">5-6 personnes</option>
+                                <option value="7+">7 personnes ou plus</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Restaurant Le Berbère — 150 Rue de la Gare, 97440 Saint-André</p>
+            <p><a href="tel:+262693772055">+262 693 77 20 55</a></p>
+            <p>Site réalisé par <strong><a href="https://lynopi.re" style="color: inherit; text-decoration: none;">Lynopi</a></strong></p>
+        </div>
+    </footer>
+
+    <!-- INLINE JAVASCRIPT -->
+    <script>
+        // === SMOOTH SCROLL ===
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href !== '#') {
+                    e.preventDefault();
+                    const target = document.querySelector(href);
+                    if (target) {
+                        target.scrollIntoView({ behavior: 'smooth' });
+                    }
+                }
+            });
+        });
+
+        // === BURGER MENU ===
+        const burger = document.getElementById('burgerMenu');
+        const navLinks = document.getElementById('navLinks');
+
+        burger.addEventListener('click', () => {
+            burger.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                burger.classList.remove('active');
+                navLinks.classList.remove('active');
+            });
+        });
+
+        // === NAV SCROLL EFFECT ===
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // === INTERSECTION OBSERVER ===
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.section-title, .about-content, .about-image-wrapper, .menu-scroll-container, .gallery-mosaic, .hours-card, .contact-form-panel, .stat-card').forEach(el => {
+            observer.observe(el);
+        });
+
+        // === TODAY HIGHLIGHT IN HOURS ===
+        const today = new Date().getDay();
+        const hourRows = document.querySelectorAll('.hours-row');
+        hourRows.forEach(row => {
+            const day = parseInt(row.getAttribute('data-day'));
+            if (day === today) {
+                row.classList.add('today');
+            }
+        });
+
+        // === PREFERS REDUCED MOTION ===
+        const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        if (prefersReducedMotion) {
+            document.documentElement.style.scrollBehavior = 'auto';
+            document.querySelectorAll('[class*="fade-in"], [class*="visible"]').forEach(el => {
+                el.style.animation = 'none';
+                el.style.transition = 'none';
+            });
+        }
+    </script>
+</body>
+</html>
